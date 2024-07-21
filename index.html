@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter Application</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet" />
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <div class="currency-converter">
+        <input type="number" class="amount" placeholder="Enter Amount" />
+        <select class="from">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="EGP">EGP</option>
+            <option value="KWD">KWD</option>
+            <option value="GBP">GBP</option>
+        </select>
+        <select class="to">
+            <option value="USD" class="usd">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="EGP">EGP</option>
+            <option value="KWD">KWD</option>
+            <option value="GBP">GBP</option>
+        </select>
+        <div class="loading-spinner" style="display: none;">Loading...</div>
+        <button id="convert" onclick="convertCurrency()">Convert</button>
+        <div class="loading-spinner"></div>
+        <div class="result"></div>        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

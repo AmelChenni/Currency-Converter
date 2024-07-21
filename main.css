@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #e8f5e9; /* Light green background */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  padding: 20px;
+  margin: 0 0 20px;
+  background-color: #388e3c; /* Darker green for the header background */
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.currency-converter {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.currency-converter input,
+.currency-converter select {
+  width: calc(50% - 12px);
+  padding: 10px;
+  margin: 10px 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fafafa;
+}
+
+.currency-converter button {
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  width: 100%;
+  background-color: #388e3c; /* Green color for button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.currency-converter button:hover {
+  background-color: #2e7d32; /* Darker green on hover */
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #388e3c; /* Green color for the result text */
+}
+.loading-spinner {
+  display: none;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #388e3c;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
