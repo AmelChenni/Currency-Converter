@@ -1,13 +1,45 @@
-# Currency Converter Application
-This Currency Converter Application automatically detects the user's country and sets the corresponding local currency as the default option for conversion. It allows users to convert amounts between various currencies with up-to-date exchange rates.
-https://amelchenni.github.io/Currency-Converter/
-# Features:
-Automatic Country Detection: Automatically detects the user's country and sets the local currency as the default option.
-#Custom Currency Option: If the local currency is not in the default list, it is added to the top of the dropdown menu.
-Real-time Exchange Rates: Fetches the latest exchange rates from a reliable API.
-Loading Indicator: Displays a loading spinner while fetching exchange rates to improve user experience.
-#Technologies Used:
-HTML: Structure of the application.
-CSS: Styling and layout.
-JavaScript: Logic for currency conversion, country detection, and handling user interactions.
-Exchange Rate API: Fetches real-time exchange rates.
+# 💱 Currency Converter  
+
+🌐 **Live Demo:** [View Project](https://amelchenni.github.io/Currency-Converter/)  
+
+---
+
+## 📖 Description  
+The **Currency Converter** is a simple web application that allows users to convert amounts between different currencies.  
+The app automatically detects the user's country and sets the corresponding local currency as the default option for conversion.  
+
+---
+
+## 🚀 Features  
+- Convert amounts between multiple currencies.  
+- Auto-detects the user’s country and sets the default currency.  
+- Responsive design for desktop and mobile.  
+- Simple and intuitive user interface.  
+
+---
+
+## 🛠️ Technologies Used  
+- **HTML5** – Structure  
+- **CSS3** – Styling & Layout  
+- **JavaScript (Vanilla)** – Functionality & API handling  
+- **ExchangeRate API** (or similar) – For fetching live currency rates  
+
+---
+
+## 📷 Preview  
+![Preview Screenshot](Screenshotapp.png)  
+
+---
+
+## 📌 Future Improvements  
+- Add **historical data charts** (currency trends).  
+- Support **cryptocurrencies** (BTC, ETH, etc.).  
+- Allow **saving favorite currency pairs**.  
+- Multi-language support (English/Arabic).  
+
+---
+
+## ▶️ Usage  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/AmelChenni/Currency-Converter.git
